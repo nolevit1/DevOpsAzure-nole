@@ -3,7 +3,7 @@ FROM node:20.10.0
 # Create app directory
 WORKDIR /usr/src/app
 
-# Install app dependencies
+# Install app dependenciess
 COPY package*.json ./
 
 RUN npm install
